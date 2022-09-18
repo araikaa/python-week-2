@@ -1,0 +1,9 @@
+n = int(input('Enter the length of array: '))
+x = []
+for i in range(n):
+    print('Enter the element: ')
+    x.append(int(input()))
+print(min(x))
+for i in range(n):
+    if x[i] == min(x):
+        print(i)
